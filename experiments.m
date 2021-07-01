@@ -29,5 +29,5 @@ for i = 7:12
         fprintf('\b\b\b%03d', k);
     end
     fprintf('\b\b\b%f sec\n', toc);
-    save experiments200b.mat Acc datasets H L leakage sigma lambda trials
+    save experiments.mat Acc datasets H L leakage sigma lambda trials
 end
