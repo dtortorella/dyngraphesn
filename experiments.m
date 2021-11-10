@@ -9,7 +9,7 @@ trials = 200;
 ratio = .9;
 Acc = zeros(length(datasets), length(L), length(H), trials);
 rng(123); % reproducibility
-for i = 7:12
+for i = 1:12
     tic;
     fprintf('%s\t000', datasets{i});
     data = load_dataset(datasets{i}, 'datasets');
